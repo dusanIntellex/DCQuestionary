@@ -1,0 +1,13 @@
+platform :ios, '13.0'
+
+target 'Questionary' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Questionary
+
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxBiBinding'
+
+end

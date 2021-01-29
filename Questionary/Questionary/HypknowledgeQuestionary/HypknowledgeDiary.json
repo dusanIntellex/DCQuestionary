@@ -1,0 +1,141 @@
+{
+    "title" : "Pavletov upitnik",
+    "subtitle" : "Pavle je danas bio odlican",
+    "questions" : [
+        {
+            "id" : "1",
+            "type" : "date_time",
+            "text" : "What time did you get to bed last night?"
+        },
+        {
+            "id" : "2",
+            "type" : "date_time",
+            "text" : "What time did you begin trying to fall asleep?"
+        },
+        {
+            "id" : "3",
+            "type" : "number",
+            "text" : "How long did it take you to fall asleep?"
+        },
+        {
+            "id" : "4",
+            "type" : "number",
+            "text" : "How many times did you wake up not counting your final waking time?"
+        },
+        {
+            "id" : "4.a",
+            "type" : "number",
+            "text" : " In total, how long did these awakenings last?"
+        },
+        {
+            "id" : "4.b",
+            "type" : "number",
+            "text" : "Of the %@, how much time did you spend out of bed?"
+        },
+        {
+            "id" : "5",
+            "type" : "date_time",
+            "text" : "What time did you wake for good?"
+        },
+        {
+            "id" : "6",
+            "type" : "one_option",
+            "text" : "Was %@ earlier than you wanted to wake up?",
+            "options" : [
+                {
+                    "id" : "1",
+                    "value" : "YES"
+                },
+                {
+                    "id" : "2",
+                    "value" : "NO"
+                }
+            ]
+        },
+        {
+            "id" : "7",
+            "type" : "date_time",
+            "text" : "What time did you finally get out of bed?"
+        },
+        {
+            "id" : "8",
+            "type" : "range_1-5",
+            "text" : "How would you rate the quality of your sleep?"
+        },
+        {
+            "id" : "9",
+            "type" : "range_1-5",
+            "text" : "How rested or refreshed did you feel this morning?"
+        },
+        {
+            "id" : "10",
+            "type" : "number",
+            "text" : "Yesterday (from morning until 6pm) how many times did you nap?"
+        },
+        {
+            "id" : "10.a",
+            "type" : "number",
+            "text" : "For how long did you nap? (Total nap time, if you had more than one nap)"
+        },
+        {
+            "id" : "11",
+            "type" : "one_option",
+            "text" : "Last night (6pm to bedtime) did you fall asleep or doze for any period of time prior to going to bed (i.e. while watching TV or reading)?",
+            "options" : [
+                {
+                    "id" : "1",
+                    "value" : "YES"
+                },
+                {
+                    "id" : "2",
+                    "value" : "NO"
+                }
+            ]
+        },
+        {
+            "id" : "11.a",
+            "type" : "number",
+            "text" : "How long did you sleep between 6pm and your final time to bed last night?"
+        },
+        {
+            "id" : "12",
+            "type" : "one_option",
+            "text" : "Was there anything about last night that made your sleep atypical, far worse or better than usual (e.g. sickness, had sick child, bed partner absent, power outage, travel, use of sleeping pills or supplements, etc.).",
+            "options" : [
+                {
+                    "id" : "1",
+                    "value" : "YES"
+                },
+                {
+                    "id" : "2",
+                    "value" : "NO"
+                }
+            ]
+        },
+        {
+            "id" : "12.a",
+            "type" : "open_text",
+            "text" : "If yes, feel free to elaborate."
+        },
+        {
+            "id" : "13",
+            "type" : "one_option",
+            "text" : "Overall, was last night a good, average, or bad night?",
+            "options" : [
+                {
+                    "id" : "1",
+                    "value" : "Good night"
+                },
+                {
+                    "id" : "2",
+                    "value" : "Average night"
+                },
+                {
+                    "id" : "3",
+                    "value" : "Bad night"
+                }
+            ]
+        }
+
+    ]
+}

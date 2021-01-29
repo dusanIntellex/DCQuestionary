@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201884CF25C04FDE007778FB /* DCQuestionaryValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201884CE25C04FDE007778FB /* DCQuestionaryValidationError.swift */; };
+		201884D925C1AE6B007778FB /* HypknowledgeQuestionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201884D825C1AE6B007778FB /* HypknowledgeQuestionary.swift */; };
+		201884DD25C1B047007778FB /* HypknowledgeQuestionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201884DC25C1B047007778FB /* HypknowledgeQuestionValidator.swift */; };
+		201884E025C1B313007778FB /* HypknowledgeAnswersStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201884DF25C1B313007778FB /* HypknowledgeAnswersStoreManager.swift */; };
+		2032EEC425BEF35400EA116B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEC325BEF35400EA116B /* AppDelegate.swift */; };
+		2032EEC625BEF35400EA116B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEC525BEF35400EA116B /* SceneDelegate.swift */; };
+		2032EEC825BEF35400EA116B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEC725BEF35400EA116B /* ViewController.swift */; };
+		2032EECB25BEF35400EA116B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032EEC925BEF35400EA116B /* Main.storyboard */; };
+		2032EECD25BEF35800EA116B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2032EECC25BEF35800EA116B /* Assets.xcassets */; };
+		2032EED025BEF35800EA116B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2032EECE25BEF35800EA116B /* LaunchScreen.storyboard */; };
+		2032EEDA25BEF38600EA116B /* DCQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EED925BEF38600EA116B /* DCQuestionModel.swift */; };
+		2032EEDE25BEF3B200EA116B /* DCQuestionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEDD25BEF3B200EA116B /* DCQuestionModelType.swift */; };
+		2032EEE325BEF49400EA116B /* DCQuestionAnswerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEE225BEF49400EA116B /* DCQuestionAnswerOption.swift */; };
+		2032EEE625BEF53D00EA116B /* DCQuestionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEE525BEF53D00EA116B /* DCQuestionsManager.swift */; };
+		2032EEEE25BEFBC400EA116B /* DCAnswersStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEED25BEFBC400EA116B /* DCAnswersStoreManager.swift */; };
+		2032EEF425BEFF6400EA116B /* DCAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEF325BEFF6400EA116B /* DCAnswerModel.swift */; };
+		2032EEFB25BF04CE00EA116B /* DCQuestionaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2032EEFA25BF04CE00EA116B /* DCQuestionaryService.swift */; };
+		20AB3BEB25C2E98A0091FD33 /* DCQuestionaryImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB3BEA25C2E98A0091FD33 /* DCQuestionaryImporter.swift */; };
+		20AB3BF625C2F5620091FD33 /* HypknowledgeDiary.json in Resources */ = {isa = PBXBuildFile; fileRef = 20AB3BF525C2F5620091FD33 /* HypknowledgeDiary.json */; };
+		20AB3BFE25C433F40091FD33 /* HypknowledgeQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB3BFD25C433F40091FD33 /* HypknowledgeQuestionModel.swift */; };
+		20D232A125C0364C00D6B160 /* DCQuestionaryModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D232A025C0364C00D6B160 /* DCQuestionaryModelProtocol.swift */; };
+		20D232A425C03B7000D6B160 /* DCQuestionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D232A325C03B7000D6B160 /* DCQuestionValidator.swift */; };
+		622386E4BCCABD88BE2A33E8 /* Pods_Questionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC2DBF6EAAADEBF63551940 /* Pods_Questionary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		201884CE25C04FDE007778FB /* DCQuestionaryValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionaryValidationError.swift; sourceTree = "<group>"; };
+		201884D825C1AE6B007778FB /* HypknowledgeQuestionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypknowledgeQuestionary.swift; sourceTree = "<group>"; };
+		201884DC25C1B047007778FB /* HypknowledgeQuestionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypknowledgeQuestionValidator.swift; sourceTree = "<group>"; };
+		201884DF25C1B313007778FB /* HypknowledgeAnswersStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypknowledgeAnswersStoreManager.swift; sourceTree = "<group>"; };
+		2032EEC025BEF35400EA116B /* Questionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2032EEC325BEF35400EA116B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2032EEC525BEF35400EA116B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2032EEC725BEF35400EA116B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2032EECA25BEF35400EA116B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2032EECC25BEF35800EA116B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2032EECF25BEF35800EA116B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2032EED125BEF35800EA116B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2032EED925BEF38600EA116B /* DCQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionModel.swift; sourceTree = "<group>"; };
+		2032EEDD25BEF3B200EA116B /* DCQuestionModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionModelType.swift; sourceTree = "<group>"; };
+		2032EEE225BEF49400EA116B /* DCQuestionAnswerOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionAnswerOption.swift; sourceTree = "<group>"; };
+		2032EEE525BEF53D00EA116B /* DCQuestionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionsManager.swift; sourceTree = "<group>"; };
+		2032EEED25BEFBC400EA116B /* DCAnswersStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAnswersStoreManager.swift; sourceTree = "<group>"; };
+		2032EEF325BEFF6400EA116B /* DCAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAnswerModel.swift; sourceTree = "<group>"; };
+		2032EEFA25BF04CE00EA116B /* DCQuestionaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionaryService.swift; sourceTree = "<group>"; };
+		20AB3BEA25C2E98A0091FD33 /* DCQuestionaryImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionaryImporter.swift; sourceTree = "<group>"; };
+		20AB3BF525C2F5620091FD33 /* HypknowledgeDiary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HypknowledgeDiary.json; sourceTree = "<group>"; };
+		20AB3BFD25C433F40091FD33 /* HypknowledgeQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypknowledgeQuestionModel.swift; sourceTree = "<group>"; };
+		20D232A025C0364C00D6B160 /* DCQuestionaryModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionaryModelProtocol.swift; sourceTree = "<group>"; };
+		20D232A325C03B7000D6B160 /* DCQuestionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCQuestionValidator.swift; sourceTree = "<group>"; };
+		36A9654E2E4F2E1B49C4C027 /* Pods-Questionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questionary.release.xcconfig"; path = "Target Support Files/Pods-Questionary/Pods-Questionary.release.xcconfig"; sourceTree = "<group>"; };
+		42A1C003E139D8BF07C1D95E /* Pods-Questionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questionary.debug.xcconfig"; path = "Target Support Files/Pods-Questionary/Pods-Questionary.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC2DBF6EAAADEBF63551940 /* Pods_Questionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Questionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2032EEBD25BEF35400EA116B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622386E4BCCABD88BE2A33E8 /* Pods_Questionary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2032EEB725BEF35400EA116B = {
+			isa = PBXGroup;
+			children = (
+				2032EEC225BEF35400EA116B /* Questionary */,
+				2032EEC125BEF35400EA116B /* Products */,
+				58A995052F58084CDB185384 /* Pods */,
+				5F9C556E3D4BC49583474636 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2032EEC125BEF35400EA116B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2032EEC025BEF35400EA116B /* Questionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2032EEC225BEF35400EA116B /* Questionary */ = {
+			isa = PBXGroup;
+			children = (
+				2032EEC325BEF35400EA116B /* AppDelegate.swift */,
+				2032EEC525BEF35400EA116B /* SceneDelegate.swift */,
+				2032EEC725BEF35400EA116B /* ViewController.swift */,
+				20AB3BF325C2F5070091FD33 /* HypknowledgeQuestionary */,
+				2032EED825BEF36800EA116B /* Questionary */,
+				2032EEC925BEF35400EA116B /* Main.storyboard */,
+				2032EECC25BEF35800EA116B /* Assets.xcassets */,
+				2032EECE25BEF35800EA116B /* LaunchScreen.storyboard */,
+				2032EED125BEF35800EA116B /* Info.plist */,
+			);
+			path = Questionary;
+			sourceTree = "<group>";
+		};
+		2032EED825BEF36800EA116B /* Questionary */ = {
+			isa = PBXGroup;
+			children = (
+				2032EEFA25BF04CE00EA116B /* DCQuestionaryService.swift */,
+				20AB3BEA25C2E98A0091FD33 /* DCQuestionaryImporter.swift */,
+				201884CE25C04FDE007778FB /* DCQuestionaryValidationError.swift */,
+				2032EEE525BEF53D00EA116B /* DCQuestionsManager.swift */,
+				2032EEED25BEFBC400EA116B /* DCAnswersStoreManager.swift */,
+				2032EEF625BF047D00EA116B /* Question */,
+				2032EEF825BF049200EA116B /* Answer */,
+				20D232A025C0364C00D6B160 /* DCQuestionaryModelProtocol.swift */,
+				20D232A325C03B7000D6B160 /* DCQuestionValidator.swift */,
+			);
+			path = Questionary;
+			sourceTree = "<group>";
+		};
+		2032EEF625BF047D00EA116B /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				2032EED925BEF38600EA116B /* DCQuestionModel.swift */,
+				2032EEDD25BEF3B200EA116B /* DCQuestionModelType.swift */,
+				2032EEE225BEF49400EA116B /* DCQuestionAnswerOption.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		2032EEF825BF049200EA116B /* Answer */ = {
+			isa = PBXGroup;
+			children = (
+				2032EEF325BEFF6400EA116B /* DCAnswerModel.swift */,
+			);
+			path = Answer;
+			sourceTree = "<group>";
+		};
+		20AB3BF325C2F5070091FD33 /* HypknowledgeQuestionary */ = {
+			isa = PBXGroup;
+			children = (
+				20AB3BF525C2F5620091FD33 /* HypknowledgeDiary.json */,
+				201884DC25C1B047007778FB /* HypknowledgeQuestionValidator.swift */,
+				201884D825C1AE6B007778FB /* HypknowledgeQuestionary.swift */,
+				20AB3BFD25C433F40091FD33 /* HypknowledgeQuestionModel.swift */,
+				201884DF25C1B313007778FB /* HypknowledgeAnswersStoreManager.swift */,
+			);
+			path = HypknowledgeQuestionary;
+			sourceTree = "<group>";
+		};
+		58A995052F58084CDB185384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42A1C003E139D8BF07C1D95E /* Pods-Questionary.debug.xcconfig */,
+				36A9654E2E4F2E1B49C4C027 /* Pods-Questionary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F9C556E3D4BC49583474636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2DBF6EAAADEBF63551940 /* Pods_Questionary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2032EEBF25BEF35400EA116B /* Questionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2032EED425BEF35800EA116B /* Build configuration list for PBXNativeTarget "Questionary" */;
+			buildPhases = (
+				2FA5CB05D70A1E6A4E7BD8F4 /* [CP] Check Pods Manifest.lock */,
+				2032EEBC25BEF35400EA116B /* Sources */,
+				2032EEBD25BEF35400EA116B /* Frameworks */,
+				2032EEBE25BEF35400EA116B /* Resources */,
+				276B5949FC1CCFADB6244057 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questionary;
+			productName = Questionary;
+			productReference = 2032EEC025BEF35400EA116B /* Questionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2032EEB825BEF35400EA116B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2032EEBF25BEF35400EA116B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 2032EEBB25BEF35400EA116B /* Build configuration list for PBXProject "Questionary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2032EEB725BEF35400EA116B;
+			productRefGroup = 2032EEC125BEF35400EA116B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2032EEBF25BEF35400EA116B /* Questionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2032EEBE25BEF35400EA116B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AB3BF625C2F5620091FD33 /* HypknowledgeDiary.json in Resources */,
+				2032EED025BEF35800EA116B /* LaunchScreen.storyboard in Resources */,
+				2032EECD25BEF35800EA116B /* Assets.xcassets in Resources */,
+				2032EECB25BEF35400EA116B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276B5949FC1CCFADB6244057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Questionary/Pods-Questionary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Questionary/Pods-Questionary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Questionary/Pods-Questionary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA5CB05D70A1E6A4E7BD8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Questionary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2032EEBC25BEF35400EA116B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2032EEC825BEF35400EA116B /* ViewController.swift in Sources */,
+				201884CF25C04FDE007778FB /* DCQuestionaryValidationError.swift in Sources */,
+				20AB3BEB25C2E98A0091FD33 /* DCQuestionaryImporter.swift in Sources */,
+				2032EEDE25BEF3B200EA116B /* DCQuestionModelType.swift in Sources */,
+				20AB3BFE25C433F40091FD33 /* HypknowledgeQuestionModel.swift in Sources */,
+				2032EEF425BEFF6400EA116B /* DCAnswerModel.swift in Sources */,
+				20D232A125C0364C00D6B160 /* DCQuestionaryModelProtocol.swift in Sources */,
+				201884E025C1B313007778FB /* HypknowledgeAnswersStoreManager.swift in Sources */,
+				2032EEC425BEF35400EA116B /* AppDelegate.swift in Sources */,
+				20D232A425C03B7000D6B160 /* DCQuestionValidator.swift in Sources */,
+				2032EEE325BEF49400EA116B /* DCQuestionAnswerOption.swift in Sources */,
+				201884DD25C1B047007778FB /* HypknowledgeQuestionValidator.swift in Sources */,
+				2032EEE625BEF53D00EA116B /* DCQuestionsManager.swift in Sources */,
+				2032EEC625BEF35400EA116B /* SceneDelegate.swift in Sources */,
+				2032EEEE25BEFBC400EA116B /* DCAnswersStoreManager.swift in Sources */,
+				2032EEDA25BEF38600EA116B /* DCQuestionModel.swift in Sources */,
+				201884D925C1AE6B007778FB /* HypknowledgeQuestionary.swift in Sources */,
+				2032EEFB25BF04CE00EA116B /* DCQuestionaryService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2032EEC925BEF35400EA116B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2032EECA25BEF35400EA116B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2032EECE25BEF35800EA116B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2032EECF25BEF35800EA116B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2032EED225BEF35800EA116B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2032EED325BEF35800EA116B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2032EED525BEF35800EA116B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A1C003E139D8BF07C1D95E /* Pods-Questionary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUV6SQ5946;
+				INFOPLIST_FILE = Questionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantox.Questionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2032EED625BEF35800EA116B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A9654E2E4F2E1B49C4C027 /* Pods-Questionary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUV6SQ5946;
+				INFOPLIST_FILE = Questionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantox.Questionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2032EEBB25BEF35400EA116B /* Build configuration list for PBXProject "Questionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2032EED225BEF35800EA116B /* Debug */,
+				2032EED325BEF35800EA116B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2032EED425BEF35800EA116B /* Build configuration list for PBXNativeTarget "Questionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2032EED525BEF35800EA116B /* Debug */,
+				2032EED625BEF35800EA116B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2032EEB825BEF35400EA116B /* Project object */;
+}
